@@ -39,6 +39,18 @@ function Pedido(fechaPedido,
 	this.getDireccionFacturacion=function(){
 		return this.direccionFacturacion;
 	};
+		//Metodo para cmbiar la fecha del pedido
+		this.setFechaPedido=function(fechaPedido){
+			this.fechaPedido=fechaPedido;
+		};
+		//Metodo para cmbiar la cantidad de articulos
+		this.setTotalArticulos=function(totalArticulos){
+			this.totalArticulos=totalArticulos;
+		};
+		//Metodo para cmbiar total del pedido
+		this.setTotalPedido=function(totalPedidoa){
+			this.totalPedidoa=totalPedidoa;
+		};
 		//Metodo para cmbiar la direccion de entrega
 		this.setDireccionEntrega=function(direccionEntrega){
 			this.direccionEntrega=direccionEntrega;
